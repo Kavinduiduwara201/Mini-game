@@ -1,0 +1,38 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Games by Kavindu iduwara (Cyber Kavi)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini Games & Puzzles</h1>
+    <p>Developed by Kavindu iduwara (Cyber Kavi)</p>
+  </header>
+
+  <main>
+    <section id="game1">
+      <h2>Guess the Number</h2>
+      <p>Try to guess a number between 1 and 10.</p>
+      <input type="number" id="guessInput" min="1" max="10" />
+      <button onclick="guessNumber()">Guess</button>
+      <p id="guessResult"></p>
+    </section>
+
+    <section id="game2">
+      <h2>Simple Puzzle</h2>
+      <p>Arrange the words to form a sentence:</p>
+      <p><em>"code learn to fun is"</em></p>
+      <input type="text" id="puzzleInput" placeholder="Type the sentence here" />
+      <button onclick="checkPuzzle()">Check</button>
+      <p id="puzzleResult"></p>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+```
